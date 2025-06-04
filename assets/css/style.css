@@ -4,7 +4,9 @@
   box-sizing: border-box !important;
 
 }
-
+.grow{
+    display: none;
+  }
 body {
   background-color: #fff;
   font-family: "Audiowide", sans-serif;
@@ -316,8 +318,8 @@ a {
   width: 100%;
   z-index: 1001;
   transition: 0.5s;
-  /* background-color: rgba(243, 244, 245, 0.137); */
-  /* box-shadow: 1px 1px 0px #0000006b; */
+  background-color: #fff;
+  box-shadow: 1px 1px 0px #0000006b;
 }
 .hgfr{
    position: fixed;
@@ -1153,6 +1155,10 @@ a {
   }
 
   .trusts {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .grow{
     display: block;
     margin-bottom: 50px;
   }
