@@ -77,10 +77,12 @@ body {
 }
 
 .trust-img img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+    width: 85%;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Optional: Trust img spacing */
