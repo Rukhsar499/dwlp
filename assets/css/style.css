@@ -12,9 +12,8 @@ body {
   font-family: "Audiowide", sans-serif;
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" fill="black"/></svg>'), auto;
 }
-/* a, [href] {
-  cursor: url('../img/comma.png') !important; /* Default arrow (pointer) */
-} */
+
+
 .btn-img {
   transition: transform 0.3s ease, margin-left 0.3s ease;
 }
@@ -252,6 +251,7 @@ h2 {
 
 a {
   text-decoration: none;
+  
 }
 
 .logo-div {
@@ -666,7 +666,7 @@ a {
   padding: 40px 20px;
   background-color: #f8f8f8b9;
   transition: all 0.4s ease-in-out;
-  cursor: pointer;
+  cursor: url('../img/dark.png') 4 4, auto !important;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -835,7 +835,9 @@ a {
 .setting {
   position: relative;
 }
-
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: url('../img/dark.png') 4 4, auto !important;
+}
 .setting::before {
   content: '';
   background-color: #FDC818;
