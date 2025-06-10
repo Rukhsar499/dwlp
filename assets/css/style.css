@@ -12,9 +12,9 @@ body {
   font-family: "Audiowide", sans-serif;
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" fill="black"/></svg>'), auto;
 }
-a, [href] {
-  cursor: default !important; /* Default arrow (pointer) */
-}
+/* a, [href] {
+  cursor: url('../img/comma.png') !important; /* Default arrow (pointer) */
+} */
 .btn-img {
   transition: transform 0.3s ease, margin-left 0.3s ease;
 }
